@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "Launch Local HTML",
+            "request": "launch",
+            "file": "C:\\Users\\razva\\Desktop\\2D Top down game\\proiect\\mainPage.html"
+        }
+    ]
+}
