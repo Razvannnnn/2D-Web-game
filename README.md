@@ -1,6 +1,6 @@
-# CyberQuest Defender
+# CyberGuard
 
-CyberQuest Defender is a 2D interactive web app developed during the 24-hour **Hermes Hackathon 2024**, where the theme was _Cybersecurity meets Retro Gaming_. Built using **HTML**, **CSS**, and **JavaScript**, this application showcases retro aesthetics and combines fun with practical tools.
+CyberGuard is a 2D interactive web app developed during the 24-hour **Hermes Hackathon 2024**, where the theme was _Cybersecurity meets Retro Gaming_. Built using **HTML**, **CSS**, and **JavaScript**, this application showcases retro aesthetics and combines fun with practical tools.
 
 ## Features
 
@@ -35,11 +35,11 @@ To run this web app locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Razvannnnn/cyberquest-defender.git
+   git clone https://github.com/Razvannnnn/CyberGuard.git
    ```
 2. Navigate to the project folder:
    ```bash
-   cd cyberquest-defender
+   cd CyberGuard
    ```
 3. Open `mainPage.html` in your preferred browser.
 
@@ -56,12 +56,10 @@ To run this web app locally:
 
 ![Gameplay Preview](Images/gif.gif)
 
-Upload a GIF here to showcase a short gameplay clip, highlighting the character movement and interactions with NPCs.
-
 ## Contributions
 
 This project was my contribution to the hackathon, focusing on building the web app and ensuring smooth character controls and NPC interactions. Contributions are welcome for improvements or additional features!
 
---
+---
 
-Feel free to explore and improve CyberQuest Defender while staying cyber-safe!
+Feel free to explore and improve CyberGuard while staying cyber-safe!
