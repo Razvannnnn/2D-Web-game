@@ -44,7 +44,6 @@ const placeCharacter = () => {
 }
 
 
-//Set up the game loop
 const step = () => {
    placeCharacter();
    window.requestAnimationFrame(() => {
@@ -220,11 +219,9 @@ document.addEventListener("DOMContentLoaded", () => {
    const previewCanvas = document.getElementById("previewCanvas");
    const ctx = previewCanvas.getContext("2d");
 
-   // Setăm dimensiunile canvasului
    previewCanvas.width = 300;
    previewCanvas.height = 150;
 
-   // Funcție pentru a afișa imaginea brută
    const previewImage = () => {
        const file = fileInput.files[0];
        if (file) {
@@ -236,11 +233,8 @@ document.addEventListener("DOMContentLoaded", () => {
                const img = new Image();
                img.onload = function () {
                    console.log("Image loaded for preview");
-
-                   // Curăță canvasul
                    ctx.clearRect(0, 0, previewCanvas.width, previewCanvas.height);
 
-                   // Redimensionează și desenează imaginea
                    const scale = Math.min(
                        previewCanvas.width / img.width,
                        previewCanvas.height / img.height
@@ -262,7 +256,6 @@ document.addEventListener("DOMContentLoaded", () => {
        }
    };
 
-   // Funcție pentru a pixeliza imaginea aleasă direct pe client
    const processImage = () => {
        const file = fileInput.files[0];
        console.log("Processing image...");
@@ -275,10 +268,8 @@ document.addEventListener("DOMContentLoaded", () => {
                img.onload = function () {
                    console.log("Image loaded for processing...");
 
-                   // Curăță canvasul
                    ctx.clearRect(0, 0, previewCanvas.width, previewCanvas.height);
 
-                   // Call the existing pixelate function to process the image
                    console.log("Calling pixelate function...");
                    pixelate({
                        image: img, // The image object to pixelate

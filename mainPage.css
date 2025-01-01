@@ -126,7 +126,7 @@ nav .nav-buttons button {
 .character {
   width: calc( var(--grid-cell)* 2 );
   height: calc( var(--grid-cell)* 2 );
-  left: calc(var(--grid-cell)*-2);
+  left: calc(var(--grid-cell)*);
   
   position: absolute;
   overflow:hidden;
@@ -257,8 +257,6 @@ nav .nav-buttons button {
 }
 
 
-
-
 /*NPC*/
 
 .npc1 {
@@ -266,7 +264,7 @@ nav .nav-buttons button {
   height: calc(var(--grid-cell) * 2);
   position: absolute;
   left: calc(var(--grid-cell) * 12); /* Position NPC */
-  top: calc(var(--grid-cell) * 5);
+  top: calc(var(--grid-cell) * 4);
   overflow: hidden;
 }
 
@@ -275,7 +273,7 @@ nav .nav-buttons button {
   height: calc(var(--grid-cell) * 2);
   position: absolute;
   left: calc(var(--grid-cell) * 2); /* Position NPC */
-  top: calc(var(--grid-cell) * 5);
+  top: calc(var(--grid-cell) * 6);
   overflow: hidden;
 }
 
@@ -283,8 +281,8 @@ nav .nav-buttons button {
   width: calc(var(--grid-cell) * 2);
   height: calc(var(--grid-cell) * 2);
   position: absolute;
-  left: calc(var(--grid-cell) * 6); /* Position NPC */
-  top: calc(var(--grid-cell) * 8);
+  left: calc(var(--grid-cell) * 9); /* Position NPC */
+  top: calc(var(--grid-cell) * 9);
   overflow: hidden;
 }
 
